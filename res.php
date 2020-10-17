@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <html>
 <head>
 	<title>Result</title>
@@ -28,7 +31,7 @@
 
 
 <?php
-	session_start();
+
 	if(isset($_POST['sub']))
 	{	
 		$servername="localhost";
