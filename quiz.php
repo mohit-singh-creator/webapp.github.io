@@ -67,7 +67,7 @@
 						echo "</tr>";
 						echo "<tr>";
 						
-						echo "<td><input type='radio' value='1' name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
+						echo "<td><input type='radio' value='1' required name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
 						
 						
 						echo "<td><input type='radio' value='2' name='choice[".$row['ID']."]'/>".$row['option2']."</td>";
@@ -102,7 +102,7 @@
 						echo "</tr>";
 						echo "<tr>";
 						
-						echo "<td><input type='radio' value='1' name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
+						echo "<td><input type='radio' value='1' required name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
 						
 						
 						echo "<td><input type='radio' value='2' name='choice[".$row['ID']."]'/>".$row['option2']."</td>";
@@ -137,7 +137,7 @@
 						echo "</tr>";
 						echo "<tr>";
 						
-						echo "<td><input type='radio' value='1' name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
+						echo "<td><input type='radio' value='1' required name='choice[".$row['ID']."]'/>".$row['option1']."</td>";
 						
 						
 						echo "<td><input type='radio' value='2' name='choice[".$row['ID']."]'/>".$row['option2']."</td>";
