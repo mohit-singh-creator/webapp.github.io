@@ -1,7 +1,14 @@
+<?php
+	session_start();
+?>
 <html>
 <head>
 	<title>Quiz</title>
 	<style>
+	th
+	{
+	    background-color:#D8D8D8;
+	}
 	*
 	{	
 		margin : 0 auto;
@@ -29,7 +36,7 @@
 
 
 <?php
-	session_start();
+	
 					
 	$_SESSION['t1']=$_POST['name'];
 	$_SESSION['t2']=$_POST['level'];
@@ -50,12 +57,12 @@
 				if($_SESSION['t2']=='Easy')
 				{	
 					echo "<form method='post' action='res.php'>";
-					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0'>";
+					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0'width='90%' height='90%'>";
 					$res=mysqli_query($conn,'select * from easy');
 					while($row=mysqli_fetch_array($res))
 					{
 						echo "<tr height='50px'>";
-						echo '<td colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</td>";
+						echo '<th colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</th>";
 						
 						echo "</tr>";
 						echo "<tr>";
@@ -85,12 +92,12 @@
 				if($_SESSION['t2']=='Hard')
 				{	
 					echo "<form method='post' action='res.php'>";
-					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0'>";
+					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0' width='90%' height='90%'>";
 					$res=mysqli_query($conn,'select * from hard');
 					while($row=mysqli_fetch_array($res))
 					{
 						echo "<tr height='50px'>";
-						echo '<td colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</td>";
+						echo '<th colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</th>";
 						
 						echo "</tr>";
 						echo "<tr>";
@@ -120,12 +127,12 @@
 				if($_SESSION['t2']=='Medium')
 				{	
 					echo "<form method='post' action='res.php'>";
-					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0'>";
+					echo "<br/><br/><table border='1px' bordercolor='red'cellspacing='0' width='90%' height='90%'>";
 					$res=mysqli_query($conn,'select * from medium');
 					while($row=mysqli_fetch_array($res))
 					{
 						echo "<tr height='50px'>";
-						echo '<td colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</td>";
+						echo '<th colspan="2">'.$row['ID'].'&nbsp&nbsp'.$row['Question']."</th>";
 						
 						echo "</tr>";
 						echo "<tr>";
