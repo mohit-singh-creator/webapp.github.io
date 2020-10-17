@@ -8,16 +8,17 @@
 		{	
 			
 			width:99.9%;
-			height:10%;
-			background-color:#0066FF;
-			border :3px solid green;
+			height:15%;
+			background-color:#707070;
+			border :3px solid #E8E8E8;
 			text-align:center;
+			
 		}
 		.a1
 		{
 			font-weight:Bold;
-			color: White;
-			font-size:35px;
+			color: #ffcccc;
+			font-size:45px;
 			
 		}
 		.a2
@@ -30,10 +31,18 @@
 			width:99.9% auto;
 			height: 20%;
 			height:auto;
-			background-color:#33CCFF;
+			color:white;
+			font-size:25px;
 			border :3px solid black;
 			
 			
+		}
+		body
+		{
+		    background-image:url('https://thumbs.dreamstime.com/z/black-laptop-table-smartphone-watch-background-d-illustration-top-view-work-space-183170308.jpg');
+		    background-color:#cccccc;
+		    background-repeat:no-repeat;
+		    background-size:cover;
 		}
 		
 	</style>
