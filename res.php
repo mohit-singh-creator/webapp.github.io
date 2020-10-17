@@ -5,6 +5,13 @@
 <head>
 	<title>Result</title>
 	<style>
+			body
+		{
+		    background-image:url('https://thumbs.dreamstime.com/z/grey-background-laptop-pen-notebook-glass-hand-made-doodle-top-view-copy-space-flat-lay-101661569.jpg');
+		    background-color:#cccccc;
+		    background-repeat:no-repeat;
+		    background-size:cover;
+		}
 	.a1
 	{	padding-bottom: 10px;
 		
