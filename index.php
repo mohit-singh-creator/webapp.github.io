@@ -39,7 +39,7 @@
 		}
 		body
 		{
-		    background-image:url('https://thumbs.dreamstime.com/z/black-laptop-table-smartphone-watch-background-d-illustration-top-view-work-space-183170308.jpg');
+		    background-image:url('https://images.unsplash.com/photo-1602508862896-f709e969b7be?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
 		    background-color:#cccccc;
 		    background-repeat:no-repeat;
 		    background-size:cover;
